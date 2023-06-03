@@ -24,11 +24,17 @@ To access the Redis cli, please do
 docker exec -it redis-stack redis-cli
 ``` 
 
+To access Redis console, please connect to in your browser
+```
+http://localhost:8001/redis-stack/browser
+```
+
 To setup the python environment
 ```bash
 poetry install
 poetry shell
 ```
+
 ## Indexing
 
 We use the pre-calculated embeddings generously provided by the hackathon host. The embeddings are indexed into Vector Store in [this notebook](./notebooks/0.0.1-sample-LLM-Stack-Hackathon-Starter.ipynb).
